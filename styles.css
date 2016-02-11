@@ -1,3 +1,7 @@
-header {
-  text-align: center;
+body {
+  background-color: #e6ffff;
+}
+
+.portfolio-item {
+  background-color: white;
 }
