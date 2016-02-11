@@ -47,11 +47,11 @@ footer {
   margin: 10px 20px 10px 10px;
 }
 
-.stats {
+.sub-head {
   margin-top: 100px;
 }
 
 .stat-card {
-  margin-left: 20px;
-  position: relative;
+  padding-left: 50px;
+  float: left;
 }
