@@ -4,4 +4,14 @@ body {
 
 .portfolio-item {
   background-color: white;
+  margin-top: 50px;
+  padding: 10px;
+  outline: 1px solid black;
+  font-size: 18px;
+}
+
+.portfolio-image {
+  border: 1px solid black;
+  float: left;
+  margin: 10px;
 }
