@@ -4,6 +4,11 @@ body {
 
 header {
   background-image: url("Sun Beams with Orange Yellow Blurred.jpg");
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -46,6 +51,10 @@ footer {
 }
 
 .stats {
-  margin-top: 50px;
-  padding: 20px;
+  margin-top: 100px;
+}
+
+.stat-card {
+  margin-left: 20px;
+  position: relative;
 }
