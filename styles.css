@@ -1,5 +1,23 @@
 body {
-  background-color: #e6ffff;
+  background-color: #ffff99;
+}
+
+header {
+  background-image: url("Sun Beams with Orange Yellow Blurred.jpg");
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  padding-top: 20px;
+}
+
+h2 {
+  font-family: 'Bangers', cursive;
+  padding-top: 10px;
+}
+
+a {
+  color: black;
 }
 
 footer {
