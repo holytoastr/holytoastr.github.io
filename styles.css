@@ -2,6 +2,13 @@ body {
   background-color: #e6ffff;
 }
 
+footer {
+  margin-top: 50px;
+  padding-top: 5px;
+  border-top: 1px solid black;
+  font-weight: lighter;
+}
+
 .portfolio-item {
   background-color: white;
   margin-top: 50px;
