@@ -4,10 +4,7 @@ body {
 
 header {
   background-image: url("Sun Beams with Orange Yellow Blurred.jpg");
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 
