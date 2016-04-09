@@ -4,6 +4,7 @@
     <title>Melissa Miller</title>
 
     <link rel="stylesheet" type="text/css" href="bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="lightcase.css">
     <link rel="stylesheet" type="text/css" href="styles.css " />
     <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css' />
     <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css' />
@@ -22,64 +23,89 @@
     </header>
 
     <div class="container" id="home">
+
       <div class="row portfolio-item">
         <div class="col-med-4">
-          <img class="portfolio-image"
-          src="https://farm9.staticflickr.com/8337/8185125661_9cf9f2f43e_q.jpg"
-          alt="temporary image">
+          <a href="https://jeffreyeaton76-ihavetogo.herokuapp.com/">
+            <img class="portfolio-image"
+            src="images/ihavetogo.png"
+            alt="iHave To Go">
+          </a>
         </div>
         <div class="col-med-8">
           <p>
-            Portfolio item placeholder.
-            We know you're dealing in stolen ore. But I wanna talk about the
-            assassination attempt on Lieutenant Worf. Your shields were
-            failing, sir. Mr. Worf, you sound like a man who's asking his
-            friend if he can start dating his sister. Mr. Worf, you do
-            remember how to fire phasers? Why don't we just give everybody a
-            promotion and call it a night - 'Commander'? Fate. It protects
-            fools, little children, and ships named "Enterprise." Travel time
-            to the nearest starbase? Worf, It's better than music. It's jazz.
-            But the probability of making a six is no greater than that of
-            rolling a seven. A lot of things can change in twelve years,
-            Admiral. Sorry, Data. I will obey your orders. I will serve this
-            ship as First Officer. And in an attack against the Enterprise, I
-            will die with this crew. But I will not break my oath of loyalty
-            to Starfleet. That might've been one of the shortest assignments
-            in the history of Starfleet. About four years. I got tired of
-            hearing how young I looked. Well, that's certainly good to know.
-            Flair is what marks the difference between artistry and mere
-            competence. Earl Grey tea, watercress sandwiches... and Bularian
-            canapés? Are you up for promotion? Damage report! How long can two
-            people talk about nothing? When has justice ever been as simple as
-            a rule book? Computer, lights up! Captain, why are we out here
-            chasing comets? Commander William Riker of the Starship Enterprise.
+            <span class="portfolio-title">iHave To Go: </span>
+            Group project that uses Ruby on Rails, AngularJS, and Google Maps API to build an app to rate public restrooms based on accessibility and cleanliness.
+          </p>
+          <p>
+            Text goes here
           </p>
         </div>
       </div>
 
       <div class="row portfolio-item">
         <div class="col-med-4">
-          <img class="portfolio-image" src="https://farm6.staticflickr.com/5597/15109117083_5f13f1e6b0.jpg" alt="temporary image">
+          <a href="https://emotional-corgum.herokuapp.com/">
+            <img class="portfolio-image"
+            src="images/corgum.png"
+            alt="Project 2: Emotional Corgum">
+          </a>
         </div>
         <div class="col-med-8">
           <p>
-            Portfolio item placeholder.
-            Now, how the hell do we defeat an enemy that knows us better than we
-            know ourselves? In all trust, there is the possibility for betrayal.
-            Not if I weaken first. Damage report! Flair is what marks the
-            difference between artistry and mere competence. You bet I'm
-            agitated! I may be surrounded by insanity, but I am not insane. Your
-            shields were failing, sir. I guess it's better to be lucky than
-            good. Now we know what they mean by 'advanced' tactical training.
-            Well, that's certainly good to know. Commander William Riker of the
-            Starship Enterprise. Did you come here for something in particular
-            or just general Riker-bashing? Computer, lights up! Fear is the true
-            enemy, the only enemy. Congratulations - you just destroyed the
-            Enterprise. I suggest you drop it, Mr. Data. Besides, you look good
-            in a dress.
+            <span class="portfolio-title">Emotional Corgum: </span>
+            Uses Ruby on Rails, Postgres, and Devise to create a full-stack web-site that allows users to create persistent new content and comment on existing content.
+          </p>
+          <p>
+            For this rails project, I approached it by working on a single model at a time. Once that model was completely built out and all errors had been eliminated, I added the next model. In this way, I could follow an error driven development path. Each error guided me to the next step in developing the app. In the future, I would like to implement a way to allow users to view more than one "emotion" at a time.
           </p>
         </div>
       </div>
+
+      <div class="row portfolio-item">
+        <div class="col-med-4">
+          <a href="http://holytoastr.github.io/project1/">
+            <img class="portfolio-image"
+            src="images/memorygame.png"
+            alt="Project 1: Memory Game">
+          </a>
+        </div>
+        <div class="col-med-8">
+          <p>
+            <span class="portfolio-title">Memory Game: </span>
+            Uses HTML, CSS, and pure JavaScript to create an interactive web-hosted memory game.
+          </p>
+          <p>
+            To approach this challenge, I broke the game down into its most basic component -- a card. The card had to have certain properties: It had to have a location on the board, it had to have a face, it had to have a back, and the user had to be able to flip the card over.
+          </p>
+          <p>
+            Once I had a card, I could move on to the next component: a deck of cards. These again had their own properties. The face cards had to be created in sets of pairs. The deck had to be shuffled. Etc...
+          </p>
+          <p>
+            Only after the entire deck was in place did I begin to add the game rules. There were some challenges I had to overcome in implementing these rules. Some of these were identifying which cards were clicked, remembering the values of the active clicked cards, and preventing the user from clicking matched cards
+          </p>
+        </div>
+      </div>
+
+      <div class="row portfolio-item">
+        <div class="col-med-4">
+          <a href="http://holytoastr.github.io/tictactoe/">
+            <img class="portfolio-image"
+            src="images/tictactoe.png"
+            alt="Tic Tac Toe Game">
+          </a>
+        </div>
+        <div class="col-med-8">
+          <p>
+            <span class="portfolio-title">Tic Tac Toe: </span>
+            Uses HTML, CSS, and JQuery to create an interactive Tic Tac Toe board
+          </p>
+          <p>
+            The purpose of this project was to take advantage of jQuery to create and manipulate the DOM. In the future, I would like to add some logic to allow the game to determine and announce a winner.
+          </p>
+        </div>
+      </div>
+
     </div>
 
     <div class="container" id="about">
@@ -142,5 +168,14 @@
         </footer>
       </div>
     </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="lightcase.js"></script>
+
+    <script type="text/javascript">
+    	jQuery(document).ready(function($) {
+    		$('a[data-rel^=lightcase]').lightcase({transition: 'elastic'});
+    	});
+    </script>
   </body>
 </html>

@@ -45,6 +45,11 @@ footer {
   padding: 2px;
   float: left;
   margin: 10px 20px 10px 10px;
+  max-width: 250px;
+}
+
+.portfolio-title {
+  font-weight: bold;
 }
 
 .sub-head {
