@@ -1,0 +1,119 @@
+/* Palette colors for reference:
+#FADC63
+#F3995A
+#FEF8AC
+#EE6E13
+#ffff99*/
+
+$orange: #EE6E13
+$bgdColor: #ffff99
+
+$markerFont: 'Permanent Marker', cursive;
+$comicFont: 'Bangers', cursive;
+
+
+body {
+  background-color: $bgdColor;
+}
+
+header {
+  background-image: url("../images/SunBeamswithOrangeYellowBlurred.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: $markerFont;
+  font-size: 48px;
+  padding-top: 20px;
+  color: black;
+}
+
+h2 {
+  font-family: $comicFont;
+  padding-top: 10px;
+  padding-left: 3px;
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+footer {
+  margin-top: 50px;
+  border-top: 1px solid black;
+  padding-top: 5px;
+  font-weight: lighter;
+}
+
+.nav {
+  font-family: $comicFont;
+  font-size: 20px;
+}
+
+.portfolio-item {
+  background-color: white;
+  margin-top: 50px;
+  padding: 10px;
+  outline: 1px solid black;
+  font-size: 18px;
+}
+
+.portfolio-image {
+  border: 1px solid black;
+  padding: 2px;
+  float: left;
+  margin: 10px 20px 10px 10px;
+  max-width: 250px;
+}
+
+.portfolio-title {
+  font-size: 22px;
+  font-family: $markerFont;
+}
+
+.sub-head {
+  margin-top: 100px;
+}
+
+.stat-card {
+  padding-left: 50px;
+  float: left;
+}
+
+/* Scroll to top */
+.scroll-top-wrapper {
+  position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+  background-color: $orange;
+	color: white;
+	width: 50px;
+	height: 48px;
+	line-height: 48px;
+	right: 30px;
+	bottom: 30px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.scroll-top-wrapper.show {
+  visibility:visible;
+  cursor:pointer;
+	opacity: 1.0;
+}
+.scroll-top-wrapper i.fa {
+	line-height: inherit;
+}
