@@ -40,6 +40,11 @@ footer {
   font-weight: lighter;
 }
 
+.nav {
+  font-family: 'Bangers', cursive;
+  font-size: 20px;
+}
+
 .portfolio-item {
   background-color: white;
   margin-top: 50px;
@@ -57,7 +62,8 @@ footer {
 }
 
 .portfolio-title {
-  font-weight: bold;
+  font-style: 40px;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .sub-head {
