@@ -8,6 +8,9 @@
   <link rel="stylesheet" type="text/css" href="styles.css " />
   <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css' />
   <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css' />
+  <link rel="stylesheet" id="font-awesome-css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.1/css/font-awesome.min.css" type="text/css" media="screen">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+  <script src="scripts.js"></script>
 
 </head>
 <body>
@@ -42,7 +45,7 @@
             The goal of this project was to have an AngularJS front-end pulling data from a Rails supplied JSON API on the back-end. To tackle this challenge, the team initially divided into specialties: front-end design, front-end Angular, back-end Rails, and API research. Each day, we reconvened to establish roles for the next sprint. In this way we were able to tackle a large number of issues in the limited time frame we were given to work with. When we encountered a challenge that one teammate was struggling with, we would pair to share brains and overcome the issue.
           </p>
           <p>
-            My main contribution to this project was the Rails API and the Angular controllers and routes. The greatest challenge for me was determining how to connect Angular and Rails in such a way that Rails could gracefully hand off control and allow the Angular configurations to control the front-end views.
+            My main contribution to this project was the Rails API and the Angular controllers and routes. The greatest challenge was determining how to connect Angular and Rails in such a way that Rails could gracefully hand off control and allow the Angular configurations to manage the front-end views.
           </p>
         </div>
       </div>
@@ -58,7 +61,7 @@
         <div class="col-med-8">
           <p>
             <span class="portfolio-title">Emotional Corgum: </span>
-            Uses Ruby on Rails, Postgres, and Devise to create a full-stack web-site that allows users to create persistent new content and comment on existing content.
+            Uses Ruby on Rails, Postgres, and Devise to create a full-stack website that allows users to create persistent new content and make comments on existing content.
           </p>
           <p>
             For this rails project, I approached it by working on a single model at a time. Once that model was completely built out and all errors had been eliminated, I added the next model. In this way, I could follow an error driven development path. Each error guided me to the next step in developing the app. In the future, I would like to implement a way to allow users to view more than one "emotion" at a time.
@@ -66,46 +69,19 @@
         </div>
       </div>
 
-      <div class="row portfolio-item">
-        <div class="col-med-4">
-          <a href="http://holytoastr.github.io/project1/">
-            <img class="portfolio-image"
-            src="images/memorygame.png"
-            alt="Project 1: Memory Game">
-          </a>
-        </div>
-        <div class="col-med-8">
-          <p>
-            <span class="portfolio-title">Memory Game: </span>
-            Uses HTML, CSS, and pure JavaScript to create an interactive web-hosted memory game.
-          </p>
-          <p>
-            To approach this challenge, I broke the game down into its most basic component -- a card. The card had to have certain properties: It had to have a location on the board, it had to have a face, it had to have a back, and the user had to be able to flip the card over.
-          </p>
-          <p>
-            Once I had a card, I could move on to the next component: a deck of cards. These again had their own properties. The face cards had to be created in sets of pairs. The deck had to be shuffled. Etc...
-          </p>
-          <p>
-            Only after the entire deck was in place did I begin to add the game rules. There were some challenges I had to overcome in implementing these rules. Some of these were identifying which cards were clicked, remembering the values of the active clicked cards, and preventing the user from clicking matched cards
-          </p>
-        </div>
-      </div>
 
       <div class="row portfolio-item">
         <div class="col-med-4">
-          <a href="http://holytoastr.github.io/tictactoe/">
+          <a href="https://cadaverous-compliment.herokuapp.com/">
             <img class="portfolio-image"
-            src="images/tictactoe.png"
-            alt="Tic Tac Toe Game">
+            src="images/compliments.png"
+            alt="Cadaverous Compliments">
           </a>
         </div>
         <div class="col-med-8">
           <p>
-            <span class="portfolio-title">Tic Tac Toe: </span>
-            Uses HTML, CSS, and JQuery to create an interactive Tic Tac Toe board
-          </p>
-          <p>
-            The purpose of this project was to take advantage of jQuery to create and manipulate the DOM. In the future, I would like to add some logic to allow the game to determine and announce a winner.
+            <span class="portfolio-title">Cadaverous Compliments: </span>
+            Created with Express for the purpose of experimenting with different design and styles. Generates random compliments for ghosts.
           </p>
         </div>
       </div>
@@ -127,14 +103,14 @@
       </div>
       <div class="col-med-8">
         <p>
-          I provide full-stack web development, with specialization in Ruby and Ruby on Rails. I love learning new technologies, both the challenges and potential that they offer.
+          I provide full-stack web development, with specialization in React and Ruby on Rails. I love learning new technologies, both the challenges and potential that they offer.
         </p>
         <p>
           When not programming, I enjoy playing with my dogs, traveling, and making useful things around the house. I also make frequent trips to Disney World.
         </p>
         <ul class="stat-card">
           <li><span class="portfolio-title">First Appearance: </span>General Assembly's Web Development Immersive Program</li>
-          <li><span class="portfolio-title">Fighting Skills: </span>Ruby on Rails, Test-Driven Development, AngularJS</li>
+          <li><span class="portfolio-title">Fighting Skills: </span>Ruby on Rails, React,  Test-Driven Development</li>
           <li><span class="portfolio-title">Special Powers: </span>Ruby, Java, JavaScript, Python, HTML, CSS</li>
         </ul>
       </div>
@@ -166,6 +142,14 @@
         </footer>
       </div>
     </div>
+
+
+  <div class="scroll-top-wrapper ">
+  	<span class="scroll-top-inner">
+  		<i class="fa fa-2x fa-arrow-circle-up"></i>
+  	</span>
+  </div>
+
   </body>
 
   </html>
