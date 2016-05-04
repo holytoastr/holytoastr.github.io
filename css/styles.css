@@ -1,4 +1,4 @@
-/*Colors for reference:
+/* Palette colors for reference:
 #FADC63
 #F3995A
 #FEF8AC
@@ -13,13 +13,13 @@ header {
   background-repeat: no-repeat; }
 
 h1 {
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
   font-size: 48px;
   padding-top: 20px;
   color: black; }
 
 h2 {
-  font-family: 'Bangers', cursive;
+  font-family: "Bangers", cursive;
   padding-top: 10px;
   padding-left: 3px;
   color: black; }
@@ -29,12 +29,12 @@ a {
 
 footer {
   margin-top: 50px;
-  padding-top: 5px;
   border-top: 1px solid black;
+  padding-top: 5px;
   font-weight: lighter; }
 
 .nav {
-  font-family: 'Bangers', cursive;
+  font-family: "Bangers", cursive;
   font-size: 20px; }
 
 .portfolio-item {
@@ -49,11 +49,11 @@ footer {
   padding: 2px;
   float: left;
   margin: 10px 20px 10px 10px;
-  max-width: 250px; }
+  max-width: 500px; }
 
 .portfolio-title {
   font-size: 22px;
-  font-family: 'Permanent Marker', cursive; }
+  font-family: "Permanent Marker", cursive; }
 
 .sub-head {
   margin-top: 100px; }
@@ -71,7 +71,7 @@ footer {
   text-align: center;
   z-index: 99999999;
   background-color: #EE6E13;
-  color: #eeeeee;
+  color: white;
   width: 50px;
   height: 48px;
   line-height: 48px;
